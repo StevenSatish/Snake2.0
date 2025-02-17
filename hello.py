@@ -30,10 +30,10 @@ snake_speed = 15
 snake_block = 10
 oldScore = 0
 
-chomp = pygame.mixer.Sound("C:\\Users\\steve\\eclipse-workspace\\SnakeGame\\sounds\\chomp.ogg")
-powerUp = pygame.mixer.Sound("C:\\Users\\steve\\eclipse-workspace\\SnakeGame\\sounds\\powerUp.ogg")
-levelUp = pygame.mixer.Sound("C:\\Users\\steve\\eclipse-workspace\\SnakeGame\\sounds\\levelUp.ogg")
-music = pygame.mixer.music.load("C:\\Users\\steve\\eclipse-workspace\\SnakeGame\\sounds\\backMusic.ogg")
+chomp = pygame.mixer.Sound("./chomp.ogg")
+powerUp = pygame.mixer.Sound("./powerUp.ogg")
+levelUp = pygame.mixer.Sound("./levelUp.ogg")
+music = pygame.mixer.music.load("./backMusic.ogg")
 pygame.mixer.music.play(-1)
  
 font_style = pygame.font.SysFont("bahnschrift", 25)
